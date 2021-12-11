@@ -1,0 +1,67 @@
+/* These are the styles to position my different divs. 
+    The first one is for the header, the second is for the links in the header 
+    and the third is for all the tableau divs*/
+
+.header {
+    overflow: hidden;
+    background-color: #615e5e;
+    padding: 20px 10px;
+  }
+
+.header a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bodypadding {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* These are my custom styles for aesthetics and other things. */
+
+
+body{
+    background: rgb(248, 234, 217);
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.changecolor {
+    color:rgb(179, 160, 99);
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color:rgb(228, 234, 235);
+}
+
+.footer {
+    text-align: center;
+}
+.footer span:hover {
+    color:rgb(140, 172, 190);
+}
+.footer a:hover {
+    color:rgb(140, 172, 190);
+}
+.footer a{
+    color:blue;
+}
+.socialcolor {
+    color:blue;
+}
+
+
